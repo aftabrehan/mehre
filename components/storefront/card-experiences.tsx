@@ -40,7 +40,7 @@ export function Lookbook() {
               <div className="lookbook-image">
                 <Parallax distance={24}>
                   <Image
-                    src={`/media/${product.image}.webp`}
+                    src={`/media/lookbook-${product.id}.webp`}
                     alt={`${product.name}, ${product.color} ${product.kind.toLowerCase()}`}
                     fill
                     sizes="(max-width: 600px) 80vw, (max-width: 1000px) 44vw, 23vw"

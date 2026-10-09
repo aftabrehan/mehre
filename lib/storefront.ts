@@ -2,31 +2,31 @@ export const categories = [
   {
     id: "plain",
     name: "Plain Suits",
-    image: "plain-suit-sand",
+    image: "category-plain",
     note: "The beauty of simplicity",
   },
   {
     id: "printed",
     name: "Printed Suits",
-    image: "mustard",
+    image: "category-printed",
     note: "A little color, a little joy",
   },
   {
     id: "embroidered",
     name: "Embroidered Suits",
-    image: "sage",
+    image: "category-embroidered",
     note: "Details to fall in love with",
   },
   {
     id: "lehenga",
     name: "Lehengas",
-    image: "lehenga-rose",
+    image: "category-lehenga",
     note: "Made for a moment",
   },
   {
     id: "bridal",
     name: "Light Ivory Bridal",
-    image: "bridal-ivory",
+    image: "category-bridal",
     note: "For your new beginning",
   },
 ] as const

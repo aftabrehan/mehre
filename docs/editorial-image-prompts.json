@@ -1,0 +1,54 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "file": "public/media/category-plain.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Category photograph: an adult Pakistani woman in an unembellished warm taupe straight kurta, trousers and plain dupatta, standing beside a carved wooden doorway, full length, relaxed three-quarter pose. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/category-printed.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Category photograph: an adult Pakistani woman in a muted mustard botanical printed Pakistani kurta, trousers and bordered dupatta, walking beside a cream plaster wall with bougainvillea, full length. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/category-embroidered.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Category photograph: an adult Pakistani woman wearing a deep sage Pakistani straight kurta with sand floral embroidery and a light embroidered dupatta, full length beside a sandstone lattice window. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/category-lehenga.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Category photograph: an adult Pakistani woman in a dusty rose celebration lehenga, matching modest blouse, champagne botanical embroidered hem and sheer dupatta, full skirt visible on courtyard steps. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/category-bridal.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Category photograph: an adult Pakistani bride wearing a light ivory lehenga with champagne floral embellishment and scalloped sheer dupatta, full length beside an old carved archway, quiet soft daylight. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/lookbook-seher.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Lifestyle editorial: adult Pakistani woman wearing plain warm sand kurta trousers and plain dupatta, seated at a wooden breakfast table by an open window, morning tea, candid quiet moment, outfit visible. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/lookbook-mahak.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Lifestyle editorial: adult Pakistani woman wearing dusty rose lehenga with champagne botanical embroidery and sheer dupatta, gently turning on a terrace at sunset, skirt flowing naturally, celebratory candid moment. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/lookbook-aab.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Lifestyle editorial: adult Pakistani bride in light ivory champagne floral embroidered lehenga and scalloped sheer dupatta, seated on a cream upholstered bench adjusting her delicate earrings, soft window light. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/lookbook-raat.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Lifestyle editorial: adult Pakistani woman in ink black kurta trousers with ivory botanical embroidery and a sheer coordinating dupatta, evening courtyard with warm lantern light, three-quarter full-length candid pose. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/bridal-editorial.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Large bridal editorial portrait: adult Pakistani bride wearing light ivory and champagne embroidered full skirt lehenga, matching blouse and scalloped sheer dupatta, full-length graceful profile on white marble veranda, airy daylight, detailed embroidery. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/story-editorial.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Pakistani fashion storefront editorial photo, portrait 2:3. Primary request: Brand story editorial: adult Pakistani woman wearing an unembellished soft olive Pakistani kurta trousers and plain light dupatta, walking away through a warm old Lahore courtyard, looking gently over her shoulder, afternoon light. Style: refined authentic luxury fashion photography, natural skin and textile texture, warm cream sandstone palette, restrained film color, soft directional natural lighting. Single coherent photograph, realistic anatomy and draping, elegant modest styling, no text, logos, watermark, collage or borders. Distinct scene and pose, not a repeated catalog shot."
+    },
+    {
+      "file": "public/media/bridal-editorial-detail.webp",
+      "reference": "public/media/bridal-editorial.webp",
+      "prompt": "Use case: identity-preserve. Asset type: portrait 2:3 bridal textile detail photograph for the secondary image beside this exact main bridal portrait. Input image is the garment and lighting reference. Create a tight editorial close-up of the SAME light ivory and champagne bridal lehenga in the reference, focusing on the lower skirt and sheer dupatta draped across it: reproduce its champagne metallic floral vine embroidery, small daisy motifs, pearl-like beadwork, broad ornate scalloped dupatta border and layered embroidered skirt hem. Only fabric details, no face, no extra people. Preserve exact ivory/champagne color, motif style, embellishment density, sheer organza texture and warm soft marble-veranda daylight of the reference. Shallow depth of field, tactile refined luxury fashion macro photography, natural drape, no text, watermark, collage or borders. This must visibly read as a detail from the referenced outfit, not a different bridal dress."
+    }
+  ]
+}

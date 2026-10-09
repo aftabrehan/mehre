@@ -131,7 +131,7 @@ export default function Page() {
           <div className="bridal-portrait">
             <Parallax distance={55}>
               <Image
-                src="/media/bridal-ivory.webp"
+                src="/media/bridal-editorial.webp"
                 alt="Aab light ivory bridal lehenga with a full embroidered skirt and sheer dupatta"
                 fill
                 sizes="(max-width: 800px) 100vw, 52vw"
@@ -164,8 +164,8 @@ export default function Page() {
             <div className="bridal-detail">
               <Parallax distance={22}>
                 <Image
-                  src="/media/bridal-detail.webp"
-                  alt="Champagne floral embroidery and scalloped dupatta edge from the ivory bridal ensemble"
+                  src="/media/bridal-editorial-detail.webp"
+                  alt="Close-up of the featured ivory bridal lehenga’s champagne floral beadwork, embroidered hem and scalloped sheer dupatta border"
                   fill
                   sizes="(max-width: 800px) 40vw, 20vw"
                 />
@@ -265,8 +265,8 @@ export default function Page() {
             <div className="story-image-wrap">
               <Parallax distance={42}>
                 <Image
-                  src="/media/plain-suit-olive.webp"
-                  alt="Sukoon plain olive Pakistani suit in warm courtyard light"
+                  src="/media/story-editorial.webp"
+                  alt="Woman in a plain olive Pakistani suit walking through a sunlit Lahore courtyard"
                   fill
                   sizes="(max-width: 800px) 80vw, 34vw"
                 />

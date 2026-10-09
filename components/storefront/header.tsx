@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Dialog } from "@base-ui/react/dialog"
 import { ArrowUpRight, Menu, X } from "lucide-react"
-import { CollectionLink, Entrance, MotionToggle } from "./motion"
+import { CollectionLink, Entrance } from "./motion"
 
 const navigation = [
   { name: "Categories", href: "#categories" },
@@ -26,7 +26,7 @@ export function Header() {
         For the everyday. For the unforgettable.
         <span>Discover the MEHR collections</span>
       </div>
-      <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
+      <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
         <a className="wordmark" href="#home" aria-label="MEHR home">
           MEHR<span className="wordmark-dot">·</span>
         </a>
@@ -81,7 +81,6 @@ export function Header() {
                 ))}
               </nav>
               <p className="menu-note">Rooted in tradition. Yours to make.</p>
-              <MotionToggle />
             </Dialog.Popup>
           </Dialog.Portal>
         </Dialog.Root>
