@@ -1,0 +1,8 @@
+Use case: landscape hero film for MEHR Pakistani womenswear.
+Reference: use the approved ivory courtyard landscape image as the initial-frame and identity/garment reference.
+Primary request: one continuous calm photorealistic fashion shot, about eight seconds. Start with the exact reference composition: adult fictional Pakistani woman in an ivory kurta and trousers with oxblood botanical embroidery and an ivory embroidered dupatta, standing in soft courtyard daylight.
+Camera: a slow stabilized push-in toward the embroidered cuff and dupatta near her waist. Move smoothly at nearly constant speed, with a brief hold on the final fabric detail. No cuts, orbit, whip-pan or morph transitions.
+Action: she remains composed and almost still, with only subtle natural breathing and minimal fabric movement. Hands retain their natural placement.
+Lighting and palette: warm plaster courtyard, soft morning daylight, ivory fabric and muted oxblood thread, matching architectural shadows and restrained greenery from the reference.
+Constraints: preserve model identity, facial features, garment shape, embroidered motif placement, dupatta border, fabric color, architecture and daylight. Realistic skin and textile grain. No new people, accessories, props, text, logos, narration or music. No melting embroidery, changing face, extra fingers, flicker or accelerated gestures.
+Composition: landscape 16:9. Start with complete silhouette and quiet left-side wall as in the reference. Final close shot should show crisp embroidery and plausible textile folds.
