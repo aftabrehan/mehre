@@ -30,9 +30,8 @@
   --serif: var(--font-editorial), Georgia, serif;
   --sans: var(--font-interface), Arial, sans-serif;
   --motion-fast: 180ms;
-  --motion-change: 360ms;
-  --motion-reveal: 850ms;
-  --parallax-strength: 1;
+  --motion-change: 480ms;
+  --motion-reveal: 900ms;
   --ease-settle: cubic-bezier(0.22, 1, 0.36, 1);
 }
 * {
@@ -179,9 +178,9 @@ h2 em {
   margin-bottom: calc(-1 * var(--header-height));
   border-bottom: 1px solid transparent;
   transition:
-    background 250ms,
-    border-color 250ms,
-    box-shadow 250ms;
+    background 450ms var(--ease-settle),
+    border-color 450ms var(--ease-settle),
+    box-shadow 450ms var(--ease-settle);
 }
 .site-header.is-scrolled {
   background: var(--cream);
@@ -527,6 +526,8 @@ h2 em {
 .parallax-inner {
   position: absolute;
   inset-inline: 0;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 .parallax-inner img {
   object-fit: cover;
@@ -1005,15 +1006,34 @@ h2 em {
   inset: 0;
   z-index: 50;
   background: #28251f65;
+  opacity: 1;
+  transition: opacity 400ms var(--ease-settle);
 }
 .mobile-menu {
   position: fixed;
   inset: 0 0 0 auto;
   z-index: 51;
   width: min(100%, 480px);
+  transform: translateX(0);
+  opacity: 1;
+  transition:
+    transform 650ms var(--ease-settle),
+    opacity 400ms var(--ease-settle);
   background: var(--cream);
   padding: 25px;
   overflow-y: auto;
+}
+.menu-backdrop[data-starting-style],
+.menu-backdrop[data-ending-style] {
+  opacity: 0;
+}
+.mobile-menu[data-starting-style],
+.mobile-menu[data-ending-style] {
+  transform: translateX(32px);
+  opacity: 0;
+}
+.mobile-menu[data-ending-style] {
+  transition-duration: 350ms;
 }
 .menu-top {
   display: flex;
@@ -1535,7 +1555,7 @@ html[data-motion-reduced] *::after {
 }
 @media (max-width: 700px) {
   :root {
-    --parallax-strength: 0.4;
+    --motion-reveal: 800ms;
   }
   .hero-image {
     inset-block: 180px -55px;

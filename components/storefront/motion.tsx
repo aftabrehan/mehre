@@ -1,6 +1,13 @@
 "use client"
 
-import { createContext, useContext, useEffect, useRef, useState } from "react"
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react"
 import {
   MotionConfig,
   motion,
@@ -88,7 +95,7 @@ export function Reveal({
   const controls = useAnimationControls()
   const { reduceMotion } = useExperience()
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const element = ref.current
     if (!element) return
     const visible = { opacity: 1, y: 0 }
@@ -106,7 +113,7 @@ export function Reveal({
       controls.set(visible)
       return
     }
-    controls.set({ opacity: 0, y: 30 })
+    controls.set({ opacity: 0, y: 18 })
     let active = true
     const observer = new IntersectionObserver(
       (entries) => {
@@ -119,7 +126,7 @@ export function Reveal({
           ease: motionTiming.ease,
         })
       },
-      { threshold: 0.08 }
+      { threshold: 0, rootMargin: "0px 0px 48px 0px" }
     )
     const focus = () => {
       if (!active) return
@@ -168,11 +175,8 @@ export function Parallax({
     offset: ["start end", "end start"],
   })
   const progress = useSpring(scrollYProgress, motionTiming.scrollSpring)
-  const y = useTransform(
-    progress,
-    (value) =>
-      `calc(${(value * 2 - 1) * distance}px * var(--parallax-strength, 1))`
-  )
+  // Numeric transforms let Motion use compositor-friendly translate values.
+  const y = useTransform(progress, [0, 1], [-distance, distance])
   return (
     <div ref={ref} className={`parallax-frame ${className}`}>
       <motion.div
@@ -254,18 +258,23 @@ export function Entrance({
   className?: string
 }) {
   const controls = useAnimationControls()
+  const started = useRef(false)
   const { reduceMotion } = useExperience()
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (reduceMotion) {
+      started.current = true
       controls.set({ opacity: 1, y: 0 })
       return
     }
-    controls.set({ opacity: 0, y: 22 })
+    if (!started.current) {
+      controls.set({ opacity: 1, y: 14 })
+      started.current = true
+    }
     void controls.start(
       { opacity: 1, y: 0 },
       {
         duration: motionTiming.entrance,
-        delay,
+        delay: Math.min(delay, 0.3),
         ease: motionTiming.ease,
       }
     )

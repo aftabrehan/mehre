@@ -265,13 +265,14 @@ const AnimatedProduct = forwardRef<
       inert={!present}
       aria-hidden={!present || undefined}
       layout={reduceMotion ? false : "position"}
-      initial={{ opacity: 0, y: reduceMotion ? 0 : 18 }}
+      initial={{ opacity: 0, y: reduceMotion ? 0 : 10 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0 }}
+      exit={{ opacity: 0, transition: { duration: reduceMotion ? 0 : 0.16 } }}
       transition={{
         duration: reduceMotion ? 0 : motionTiming.change,
         ease: motionTiming.ease,
-        opacity: { duration: reduceMotion ? 0 : 0.22 },
+        layout: { duration: reduceMotion ? 0 : 0.55, ease: motionTiming.ease },
+        opacity: { duration: reduceMotion ? 0 : 0.32 },
         y: { delay: reduceMotion ? 0 : Math.min(index * 0.035, 0.18) },
       }}
     >

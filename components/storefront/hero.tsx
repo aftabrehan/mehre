@@ -32,15 +32,9 @@ export function Hero() {
     offset: ["start start", "end start"],
   })
   const progress = useSpring(scrollYProgress, motionTiming.scrollSpring)
-  const y = useTransform(
-    progress,
-    (value) => `calc(${value * -100}px * var(--parallax-strength, 1))`
-  )
-  const textY = useTransform(
-    progress,
-    (value) => `calc(${value * -45}px * var(--parallax-strength, 1))`
-  )
-  const scale = useTransform(progress, [0, 1], [1, 1.06])
+  const y = useTransform(progress, [0, 1], [0, -48])
+  const textY = useTransform(progress, [0, 1], [0, -20])
+  const scale = useTransform(progress, [0, 1], [1, 1.035])
   return (
     <section className="hero" aria-labelledby="hero-heading" ref={ref}>
       <motion.div
