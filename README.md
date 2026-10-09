@@ -1,4 +1,4 @@
-# MEHR — For every chapter, beautifully.
+# MEHRE — For every chapter, beautifully.
 
 A responsive Pakistani womenswear concept landing page, built with Next.js 16.3, React 19, Tailwind 4, shadcn/Base UI, and Motion for React.
 

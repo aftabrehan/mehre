@@ -72,7 +72,7 @@ export default function Page() {
           aria-labelledby="collections-heading"
         >
           <Reveal className="campaign-intro">
-            <p className="eyebrow">THE MEHR COLLECTIONS</p>
+            <p className="eyebrow">THE MEHRE COLLECTIONS</p>
             <h2 id="collections-heading">
               Different moments.
               <br />
@@ -81,7 +81,7 @@ export default function Page() {
             <p>
               A familiar thread runs through everything we create.
               <br />
-              Discover three expressions of MEHR.
+              Discover three expressions of MEHRE.
             </p>
           </Reveal>
           <div className="campaign-grid">
@@ -241,7 +241,7 @@ export default function Page() {
           aria-labelledby="story-heading"
         >
           <div className="story-wordmark" aria-hidden="true">
-            MEHR
+            MEHRE
           </div>
           <div className="story-inner">
             <Reveal className="story-copy">
@@ -252,7 +252,7 @@ export default function Page() {
                 <em>Your own story.</em>
               </h2>
               <p>
-                MEHR is a love letter to the way we dress, and the lives we
+                MEHRE is a love letter to the way we dress, and the lives we
                 dress for. The comfort of an ordinary morning. The joy of a
                 celebration. The tenderness of a new beginning.
               </p>
@@ -295,8 +295,8 @@ export default function Page() {
       </main>
       <footer className="site-footer section-shell">
         <div className="footer-top">
-          <a className="wordmark" href="#home" aria-label="MEHR home">
-            MEHR<span className="wordmark-dot">·</span>
+          <a className="wordmark" href="#home" aria-label="MEHRE home">
+            MEHRE<span className="wordmark-dot">·</span>
           </a>
           <p>For every chapter, beautifully.</p>
           <a href="#home" className="back-top">
@@ -326,7 +326,7 @@ export default function Page() {
             </nav>
           </div>
           <div>
-            <p className="eyebrow">THE WORLD OF MEHR</p>
+            <p className="eyebrow">THE WORLD OF MEHRE</p>
             <nav aria-label="Footer brand navigation">
               <a href="#story">Our story</a>
               <a href="#details">The details</a>
@@ -335,7 +335,7 @@ export default function Page() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 MEHR.</span>
+          <span>© 2026 MEHRE.</span>
           <p>
             Concept collections · AI-created imagery · Illustrative prices · No
             orders are processed.

@@ -14,7 +14,7 @@ export function Lookbook() {
     >
       <Reveal className="section-heading">
         <div>
-          <p className="eyebrow">A FEW MOMENTS, IN MEHR</p>
+          <p className="eyebrow">A FEW MOMENTS, IN MEHRE</p>
           <h2 id="lookbook-heading">
             Life, in <em>beautiful chapters.</em>
           </h2>
@@ -46,7 +46,7 @@ export function Lookbook() {
                     sizes="(max-width: 600px) 80vw, (max-width: 1000px) 44vw, 23vw"
                   />
                 </Parallax>
-                <span>0{index + 1} / MEHR</span>
+                <span>0{index + 1} / MEHRE</span>
               </div>
               <p className="eyebrow">{product.moment}</p>
               <h3>

@@ -55,7 +55,7 @@ export function Hero() {
         <motion.div style={{ y: reduceMotion ? 0 : textY }}>
           <Entrance delay={0.08}>
             <p className="eyebrow hero-eyebrow">
-              <span aria-hidden="true">✳</span> THE MEHR COLLECTIONS / 2026
+              <span aria-hidden="true">✳</span> THE MEHRE COLLECTIONS / 2026
             </p>
           </Entrance>
           <Entrance delay={0.18}>

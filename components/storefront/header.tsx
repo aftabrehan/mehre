@@ -24,11 +24,11 @@ export function Header() {
     <>
       <div className="announcement" id="home">
         For the everyday. For the unforgettable.
-        <span>Discover the MEHR collections</span>
+        <span>Discover the MEHRE collections</span>
       </div>
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
-        <a className="wordmark" href="#home" aria-label="MEHR home">
-          MEHR<span className="wordmark-dot">·</span>
+        <a className="wordmark" href="#home" aria-label="MEHRE home">
+          MEHRE<span className="wordmark-dot">·</span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           {navigation.map((item) => (
@@ -50,7 +50,7 @@ export function Header() {
             <Dialog.Popup className="mobile-menu">
               <div className="menu-top">
                 <Dialog.Title className="wordmark">
-                  MEHR<span className="wordmark-dot">·</span>
+                  MEHRE<span className="wordmark-dot">·</span>
                 </Dialog.Title>
                 <Dialog.Close
                   className="icon-button"

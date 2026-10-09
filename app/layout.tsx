@@ -21,15 +21,15 @@ const sans = localFont({
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: siteUrl, alternates: { canonical: "/" } } : {}),
   robots: { index: indexable, follow: indexable },
-  title: "MEHR — For every chapter, beautifully.",
+  title: "MEHRE — For every chapter, beautifully.",
   description:
-    "Discover MEHR: Pakistani suits, celebration lehengas and light ivory bridal ensembles. Explore The Living Edit, Rang and Ivory Vows.",
+    "Discover MEHRE: Pakistani suits, celebration lehengas and light ivory bridal ensembles. Explore The Living Edit, Rang and Ivory Vows.",
   openGraph: {
     type: "website",
-    siteName: "MEHR",
+    siteName: "MEHRE",
     locale: "en_PK",
     ...(siteUrl ? { url: siteUrl.href } : {}),
-    title: "MEHR — The Collections",
+    title: "MEHRE — The Collections",
     description:
       "Pakistani suits, celebration lehengas and light ivory bridal collections.",
     images: siteUrl
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
             url: "/media/hero-premium-desktop.webp",
             width: 1672,
             height: 941,
-            alt: "MEHR celebration and ivory bridal collections",
+            alt: "MEHRE celebration and ivory bridal collections",
           },
         ]
       : [],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MEHR — For every chapter, beautifully.",
+    title: "MEHRE — For every chapter, beautifully.",
     description:
       "Pakistani suits, celebration lehengas and light ivory bridal ensembles.",
     images: siteUrl

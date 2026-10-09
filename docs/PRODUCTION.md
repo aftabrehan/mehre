@@ -1,6 +1,6 @@
 # Production guide
 
-MEHR is a public concept catalog, with local catalog data and AI-created imagery. It supports browsing, filtering and viewing garment details. It does not accept payments or orders. Publish it as a concept site; a transactional store requires a real catalog, inventory, checkout, fulfillment and customer policies.
+MEHRE is a public concept catalog, with local catalog data and AI-created imagery. It supports browsing, filtering and viewing garment details. It does not accept payments or orders. Publish it as a concept site; a transactional store requires a real catalog, inventory, checkout, fulfillment and customer policies.
 
 ## Requirements and setup
 
